@@ -1,0 +1,182 @@
+/*-----------------------------
+            FADE IN
+------------------------------*/
+.fade-in {
+  opacity: 0;
+  -webkit-animation: fadeIn ease-in 1;
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 0.5s;
+  -moz-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+/*-----------------------------
+            FADE OUT
+------------------------------*/
+.fade-out {
+  opacity: 1;
+  -webkit-animation: fadeOut ease-in 1;
+  -moz-animation: fadeOut ease-in 1;
+  animation: fadeOut ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 0.5s;
+  -moz-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  animation-delay: 0s;
+}
+
+/*-----------------------------
+       SLIDE IN FROM LEFT
+------------------------------*/
+.slide-in-left {
+  position: absolute;
+  -webkit-animation: slideInFromLeft ease-in 1;
+  -moz-animation: slideInFromLeft ease-in 1;
+  animation: slideInFromLeft ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 0.5s;
+  -moz-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+/*-----------------------------
+       SLIDE IN FROM RIGHT
+------------------------------*/
+.slide-in-right {
+  position: absolute;
+  -webkit-animation: slideInFromRight ease-in 1;
+  -moz-animation: slideInFromRight ease-in 1;
+  animation: slideInFromRight ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 0.5s;
+  -moz-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+/*-----------------------------
+       SLIDE IN FROM TOP
+------------------------------*/
+.slide-in-top {
+  position: absolute;
+  -webkit-animation: slideInFromTop ease-in 1;
+  -moz-animation: slideInFromTop ease-in 1;
+  animation: slideInFromTop ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 0.5s;
+  -moz-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+/*-----------------------------
+       SLIDE IN FROM BOTTOM
+------------------------------*/
+.slide-in-bottom {
+  position: absolute;
+  -webkit-animation: slideInFromBottom ease-in 1;
+  -moz-animation: slideInFromBottom ease-in 1;
+  animation: slideInFromBottom ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 0.5s;
+  -moz-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+
+/*-----------------------------
+          KEY FRAMES
+------------------------------*/
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1
+  }
+
+  100% {
+    opacity: 0
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0
+  }
+
+  100% {
+    opacity: 1
+  }
+}
+
+@keyframes slideInFromTop {
+  0% {
+    top: -$add-height
+  }
+
+  100% {
+    top: 0px
+  }
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    top: $add-height
+  }
+
+  100% {
+    top: 0px
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    top : 0px;
+    margin-left: $add-width
+  }
+
+  100% {
+    top : 0px;
+    margin-left: 0px
+  }
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    top : 0px;
+    margin-left: -$add-width
+  }
+
+  100% {
+    top : 0px;
+    margin-left: 0px
+  }
+}

@@ -1,0 +1,44 @@
+/*---------------------------
+  COLUMNS AND ROWS CLASSES
+-----------------------------*/
+@for $i from 1 to 13 {
+  .col-#{$i} {
+    width: (100% / 12) * $i;
+  }
+  .row-#{$i} {
+    height: (100% / 12) * $i;
+  }
+}
+
+
+/*----------------------------------
+   ALIGN AND POSITIONING CLASSES
+-----------------------------------*/
+.center{
+  margin: 0 auto;
+}
+
+.middle{
+  vertical-align: middle;
+}
+
+@for $i from 1 to 11 {
+  .mar-top-#{$i} {
+    margin-top: 5px * $i;
+  }
+  .mar-bot-#{$i} {
+    margin-bottom: 5px * $i;
+  }
+  .pad-top-#{$i} {
+    padding-top: 5px * $i;
+  }
+  .pad-bottom-#{$i} {
+    padding-bottom: 5px * $i;
+  }
+  .pad-left-#{$i} {
+    padding-left: 5px * $i;
+  }
+  .pad-right-#{$i} {
+    padding-right: 5px * $i;
+  }
+}

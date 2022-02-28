@@ -1,0 +1,39 @@
+/*---------------------------
+        COLOUR CLASSES
+-----------------------------*/
+
+.bg{
+  &-red {
+    background-color: $primary_red;
+  }
+  &-burgundy {
+    background-color: $primary_burgundy;
+  }
+  &-black {
+    background-color: $primary_black;
+  }
+  &-white {
+    background-color: $primary_white;
+  }
+  &-grey {
+    background-color: $primary_grey;
+  }
+}
+
+.txt{
+  &-red {
+    color: $primary_red;
+  }
+  &-burgundy {
+    color: $primary_burgundy;
+  }
+  &-black {
+    color: $primary_black;
+  }
+  &-white {
+    color: $primary_white;
+  }
+  &-grey {
+    color: $primary_grey;
+  }
+}

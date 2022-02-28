@@ -1,0 +1,65 @@
+/*-----------------------
+      LOGOS POSITION
+-----------------------*/
+.logo {
+  background-repeat: no-repeat;
+  background-position: center;
+  color: rgba($color: #000000, $alpha: 0);
+}
+
+
+/*-----------------------
+      LOGOS SIZES
+-----------------------*/
+p.logo{
+ width: 100%;
+}
+.logo_728x90 {
+  background-size: 75%;
+  font-size: 16px;
+}
+.logo_300x250 {
+  background-size: 65% 18px;
+  font-size: 19px;
+}
+.logo_320x50 {
+  background-size: 70%;
+  font-size: 16.65px;
+}
+
+
+/*-----------------------
+      LOGOS COLORS
+-----------------------*/
+.en-white-logo {
+  background-image: url('../img/logo_EN_white.svg');
+}
+.en-red-logo {
+  background-image: url('../img/logo_EN_red.svg');
+}
+.en-black-logo {
+  background-image: url('../img/logo_EN_black.svg');
+}
+
+.fr-white-logo {
+  background-image: url('../img/logo_FR_white.svg');
+}
+.fr-red-logo {
+  background-image: url('../img/logo_FR_red.svg');
+}
+.fr-black-logo {
+  background-image: url('../img/logo_FR_black.svg');
+}
+
+/*-----------------------
+      NO SELECTABLE
+-----------------------*/
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}

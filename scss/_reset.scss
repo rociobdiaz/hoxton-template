@@ -1,0 +1,21 @@
+/*-----------------------------
+          RESET RULES
+------------------------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+  line-height: 1;
+}
+
+html body table#table {
+  font-family: "TedNext Regular";
+}
+
+table, tr, td, tbody {
+  border: 0;
+  border-spacing: 0;
+  vertical-align: baseline;
+}

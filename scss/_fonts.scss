@@ -1,0 +1,63 @@
+/*------------------------
+    FONT FACE SETTINGS
+-------------------------*/
+@font-face {
+  font-family: "TedNext Regular";
+  src: url("https://s0.2mdn.net/creatives/assets/3917894/TedNext-Regular.woff") format("woff"), url("https://s0.2mdn.net/creatives/assets/3917894/TedNext-Regular.ttf") format("truetype"), url("https://s0.2mdn.net/creatives/assets/3917894/TedNext-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TedNext Semibold";
+  src: url("https://s0.2mdn.net/creatives/assets/3917894/TedNext-Semibold.woff") format("woff"), url("https://s0.2mdn.net/creatives/assets/3917894/TedNext-Semibold.ttf") format("truetype"), url("https://s0.2mdn.net/creatives/assets/3917894/TedNext-Semibold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TedNext Bold";
+  src: url("https://s0.2mdn.net/creatives/assets/3917894/TedNext-Bold.woff") format("woff"), url("https://s0.2mdn.net/creatives/assets/3917894/TedNext-Bold.ttf") format("truetype"), url("https://s0.2mdn.net/creatives/assets/3917894/TedNext-Bold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*------------------------
+        FONT CLASSES
+-------------------------*/
+.regular {
+  font-family: "TedNext Regular";
+}
+
+.semibold {
+  font-family:"TedNext Semibold";
+}
+
+.bold {
+  font-family:"TedNext Bold";
+}
+
+/*---------------------------
+        TEXT ALIGN
+-----------------------------*/
+.txt {
+  &-left {
+    text-align: left;
+  }
+  &-center {
+    text-align: center;
+  }
+  &-right {
+    text-align: right;
+  }
+}
+
+.super {
+  vertical-align: super;
+  font-size: .5em;
+}
+
+.sub {
+  vertical-align: sub;
+  font-size: .4em;
+}
