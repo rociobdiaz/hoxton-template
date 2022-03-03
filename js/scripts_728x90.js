@@ -246,3 +246,22 @@ function setPosition(element, father) {
     });
   }
 }
+
+var zIndex = 1;
+
+// function to create frames
+function createFrames(framesData) {
+  // map the framesData array to create the frames animation rules
+  for (let i=0; i < framesData.length; i++) {
+    zIndex = zIndex + 10;
+    if (framesData.length > 1) {
+      css(framesData[i].animation, {
+        'opacity': '0',
+        '-webkit-animation' : '.5s ' + framesData[i].animationType + ' ease ' + i*3 + 's forwards 1;',
+        '-moz-animation' : '.5s fadeIn ease 0s forwards 1;',
+        'animation' : '.5s fadeIn ease 0s forwards 1;',
+        'z-index': zIndex,
+      });
+    }
+  }
+}
