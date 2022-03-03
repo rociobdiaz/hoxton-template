@@ -3,18 +3,9 @@
 ------------------------------*/
 .fade-in {
   opacity: 0;
-  -webkit-animation: fadeIn ease-in 1;
-  -moz-animation: fadeIn ease-in 1;
-  animation: fadeIn ease-in 1;
-  -webkit-animation-fill-mode: forwards;
-  -moz-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-  -webkit-animation-duration: 0.5s;
-  -moz-animation-duration: 0.5s;
-  animation-duration: 0.5s;
-  -webkit-animation-delay: 0s;
-  -moz-animation-delay: 0s;
-  animation-delay: 0s;
+  -webkit-animation: .5s fadeIn ease 0s forwards 1;
+  -moz-animation: .5s fadeIn ease 0s forwards 1;
+  animation: .5s fadeIn ease 0s forwards 1;
 }
 
 /*-----------------------------
@@ -22,18 +13,9 @@
 ------------------------------*/
 .fade-out {
   opacity: 1;
-  -webkit-animation: fadeOut ease-in 1;
-  -moz-animation: fadeOut ease-in 1;
-  animation: fadeOut ease-in 1;
-  -webkit-animation-fill-mode: forwards;
-  -moz-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-  -webkit-animation-duration: 0.5s;
-  -moz-animation-duration: 0.5s;
-  animation-duration: 0.5s;
-  -webkit-animation-delay: 2s;
-  -moz-animation-delay: 2s;
-  animation-delay: 0s;
+  -webkit-animation: .5s fadeOut ease 0s forwards 1;
+  -moz-animation: .5s fadeOut ease 0s forwards 1;
+  animation: .5s fadeOut ease 0s forwards 1;
 }
 
 /*-----------------------------
@@ -41,18 +23,9 @@
 ------------------------------*/
 .slide-in-left {
   position: absolute;
-  -webkit-animation: slideInFromLeft ease-in 1;
-  -moz-animation: slideInFromLeft ease-in 1;
-  animation: slideInFromLeft ease-in 1;
-  -webkit-animation-fill-mode: forwards;
-  -moz-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-  -webkit-animation-duration: 0.5s;
-  -moz-animation-duration: 0.5s;
-  animation-duration: 0.5s;
-  -webkit-animation-delay: 0s;
-  -moz-animation-delay: 0s;
-  animation-delay: 0s;
+  -webkit-animation: .5s slideInFromLeft ease 0s forwards 1;
+  -moz-animation: .5s slideInFromLeft ease 0s forwards 1;
+  animation: .5s slideInFromLeft ease 0s forwards 1;
 }
 
 /*-----------------------------
@@ -60,18 +33,9 @@
 ------------------------------*/
 .slide-in-right {
   position: absolute;
-  -webkit-animation: slideInFromRight ease-in 1;
-  -moz-animation: slideInFromRight ease-in 1;
-  animation: slideInFromRight ease-in 1;
-  -webkit-animation-fill-mode: forwards;
-  -moz-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-  -webkit-animation-duration: 0.5s;
-  -moz-animation-duration: 0.5s;
-  animation-duration: 0.5s;
-  -webkit-animation-delay: 0s;
-  -moz-animation-delay: 0s;
-  animation-delay: 0s;
+  -webkit-animation: .5s slideInFromRight ease 0s forwards 1;
+  -moz-animation: .5s slideInFromRight ease 0s forwards 1;
+  animation: .5s slideInFromRight ease 0s forwards 1;
 }
 
 /*-----------------------------
@@ -79,18 +43,9 @@
 ------------------------------*/
 .slide-in-top {
   position: absolute;
-  -webkit-animation: slideInFromTop ease-in 1;
-  -moz-animation: slideInFromTop ease-in 1;
-  animation: slideInFromTop ease-in 1;
-  -webkit-animation-fill-mode: forwards;
-  -moz-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-  -webkit-animation-duration: 0.5s;
-  -moz-animation-duration: 0.5s;
-  animation-duration: 0.5s;
-  -webkit-animation-delay: 0s;
-  -moz-animation-delay: 0s;
-  animation-delay: 0s;
+  -webkit-animation: .5s slideInFromTop ease 0s forwards 1;
+  -moz-animation: .5s slideInFromTop ease 0s forwards 1;
+  animation: .5s slideInFromTop ease 0s forwards 1;
 }
 
 /*-----------------------------
@@ -98,18 +53,9 @@
 ------------------------------*/
 .slide-in-bottom {
   position: absolute;
-  -webkit-animation: slideInFromBottom ease-in 1;
-  -moz-animation: slideInFromBottom ease-in 1;
-  animation: slideInFromBottom ease-in 1;
-  -webkit-animation-fill-mode: forwards;
-  -moz-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-  -webkit-animation-duration: 0.5s;
-  -moz-animation-duration: 0.5s;
-  animation-duration: 0.5s;
-  -webkit-animation-delay: 0s;
-  -moz-animation-delay: 0s;
-  animation-delay: 0s;
+  -webkit-animation: .5s slideInFromBottom ease 3s forwards 1;
+  -moz-animation: .5s slideInFromBottom ease 3s forwards 1;
+  animation: .5s slideInFromBottom ease 3s forwards 1;
 }
 
 
